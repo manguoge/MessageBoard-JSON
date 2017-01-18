@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  NSDictionary+nullChange.h
 //  MessageBoard-JSON
 //
 //  Created by comfouriertech on 17/1/17.
 //  Copyright © 2017年 ronghua_li. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
-@interface ViewController : UIViewController
-
-
+@interface NSDictionary (nullChange)
++(id)changeType:(id)myObj;
 @end
-

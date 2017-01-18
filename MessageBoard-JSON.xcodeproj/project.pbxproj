@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		FB1A44311E2DAD59008999C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A44301E2DAD59008999C0 /* main.m */; };
 		FB1A44341E2DAD59008999C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A44331E2DAD59008999C0 /* AppDelegate.m */; };
-		FB1A44371E2DAD59008999C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A44361E2DAD59008999C0 /* ViewController.m */; };
-		FB1A443A1E2DAD59008999C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1A44381E2DAD59008999C0 /* Main.storyboard */; };
 		FB1A443C1E2DAD59008999C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB1A443B1E2DAD59008999C0 /* Assets.xcassets */; };
 		FB1A443F1E2DAD59008999C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB1A443D1E2DAD59008999C0 /* LaunchScreen.storyboard */; };
+		FB1A44491E2DAE2E008999C0 /* SZMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A44471E2DAE2E008999C0 /* SZMessageVC.m */; };
+		FB1A444A1E2DAE2E008999C0 /* SZMessageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1A44481E2DAE2E008999C0 /* SZMessageVC.xib */; };
+		FB1A444E1E2DAE4A008999C0 /* SZNewMessageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A444C1E2DAE4A008999C0 /* SZNewMessageVC.m */; };
+		FB1A444F1E2DAE4A008999C0 /* SZNewMessageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB1A444D1E2DAE4A008999C0 /* SZNewMessageVC.xib */; };
+		FB1A44531E2DFABD008999C0 /* NSDictionary+nullChange.m in Sources */ = {isa = PBXBuildFile; fileRef = FB1A44521E2DFABC008999C0 /* NSDictionary+nullChange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		FB1A44301E2DAD59008999C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FB1A44321E2DAD59008999C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FB1A44331E2DAD59008999C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FB1A44351E2DAD59008999C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FB1A44361E2DAD59008999C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FB1A44391E2DAD59008999C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FB1A443B1E2DAD59008999C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB1A443E1E2DAD59008999C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB1A44401E2DAD59008999C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB1A44461E2DAE2E008999C0 /* SZMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZMessageVC.h; sourceTree = "<group>"; };
+		FB1A44471E2DAE2E008999C0 /* SZMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZMessageVC.m; sourceTree = "<group>"; };
+		FB1A44481E2DAE2E008999C0 /* SZMessageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZMessageVC.xib; sourceTree = "<group>"; };
+		FB1A444B1E2DAE4A008999C0 /* SZNewMessageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZNewMessageVC.h; sourceTree = "<group>"; };
+		FB1A444C1E2DAE4A008999C0 /* SZNewMessageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZNewMessageVC.m; sourceTree = "<group>"; };
+		FB1A444D1E2DAE4A008999C0 /* SZNewMessageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SZNewMessageVC.xib; sourceTree = "<group>"; };
+		FB1A44501E2DBB88008999C0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FB1A44511E2DFABC008999C0 /* NSDictionary+nullChange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+nullChange.h"; path = "../NSDictionary+nullChange.h"; sourceTree = "<group>"; };
+		FB1A44521E2DFABC008999C0 /* NSDictionary+nullChange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+nullChange.m"; path = "../NSDictionary+nullChange.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +69,14 @@
 			children = (
 				FB1A44321E2DAD59008999C0 /* AppDelegate.h */,
 				FB1A44331E2DAD59008999C0 /* AppDelegate.m */,
-				FB1A44351E2DAD59008999C0 /* ViewController.h */,
-				FB1A44361E2DAD59008999C0 /* ViewController.m */,
-				FB1A44381E2DAD59008999C0 /* Main.storyboard */,
+				FB1A44461E2DAE2E008999C0 /* SZMessageVC.h */,
+				FB1A44471E2DAE2E008999C0 /* SZMessageVC.m */,
+				FB1A44481E2DAE2E008999C0 /* SZMessageVC.xib */,
+				FB1A444B1E2DAE4A008999C0 /* SZNewMessageVC.h */,
+				FB1A444C1E2DAE4A008999C0 /* SZNewMessageVC.m */,
+				FB1A444D1E2DAE4A008999C0 /* SZNewMessageVC.xib */,
+				FB1A44511E2DFABC008999C0 /* NSDictionary+nullChange.h */,
+				FB1A44521E2DFABC008999C0 /* NSDictionary+nullChange.m */,
 				FB1A443B1E2DAD59008999C0 /* Assets.xcassets */,
 				FB1A443D1E2DAD59008999C0 /* LaunchScreen.storyboard */,
 				FB1A44401E2DAD59008999C0 /* Info.plist */,
@@ -75,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				FB1A44301E2DAD59008999C0 /* main.m */,
+				FB1A44501E2DBB88008999C0 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,9 +153,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB1A444F1E2DAE4A008999C0 /* SZNewMessageVC.xib in Resources */,
+				FB1A444A1E2DAE2E008999C0 /* SZMessageVC.xib in Resources */,
 				FB1A443F1E2DAD59008999C0 /* LaunchScreen.storyboard in Resources */,
 				FB1A443C1E2DAD59008999C0 /* Assets.xcassets in Resources */,
-				FB1A443A1E2DAD59008999C0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB1A44371E2DAD59008999C0 /* ViewController.m in Sources */,
+				FB1A444E1E2DAE4A008999C0 /* SZNewMessageVC.m in Sources */,
+				FB1A44531E2DFABD008999C0 /* NSDictionary+nullChange.m in Sources */,
 				FB1A44341E2DAD59008999C0 /* AppDelegate.m in Sources */,
+				FB1A44491E2DAE2E008999C0 /* SZMessageVC.m in Sources */,
 				FB1A44311E2DAD59008999C0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,14 +178,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FB1A44381E2DAD59008999C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FB1A44391E2DAD59008999C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FB1A443D1E2DAD59008999C0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -272,6 +282,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W95B5QABWP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MessageBoard-JSON/PrefixHeader.pch";
 				INFOPLIST_FILE = "MessageBoard-JSON/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hitszcerc.MessageBoard-JSON";
@@ -284,6 +296,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = W95B5QABWP;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MessageBoard-JSON/PrefixHeader.pch";
 				INFOPLIST_FILE = "MessageBoard-JSON/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hitszcerc.MessageBoard-JSON";

@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "SZMessageVC.h"
 @interface AppDelegate ()
 
 @end
@@ -15,8 +15,14 @@
 @implementation AppDelegate
 
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
+    self.window=[[UIWindow alloc]initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.backgroundColor=[UIColor whiteColor];
+    SZMessageVC* messageVC=[[SZMessageVC alloc] initWithNibName:@"SZMessageVC" bundle:nil];
+    UINavigationController* nav=[[UINavigationController alloc] initWithRootViewController:messageVC];
+    self.window.rootViewController=nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
